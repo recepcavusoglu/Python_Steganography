@@ -1,8 +1,8 @@
 # Pyhton_Steganography
 
-## Usage
-
 >Hiding message to image or audio files.
+
+## Usage
 
 For Image Files
 ```python
