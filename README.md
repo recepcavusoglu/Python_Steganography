@@ -6,12 +6,16 @@
 
 For Image Files
 ```python
+import Steganography as stg
+
 stega_img = stg.Steganography("your_image_name.jpg")
 stega_img.Write_Image("Hello There Image File!")
 print(stega_img.Read_Image("Steganography.bmp"))
 ```
 For Audio Files
 ```python
+import Steganography as stg
+
 stega_audio=stg.Steganography("your_file_name.wav")
 stega_audio.Write_Audio("Hello There Audio File!")
 print(stega_audio.Read_Audio("Steganography.wav"))
