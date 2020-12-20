@@ -146,9 +146,6 @@ class Steganography():
             size += (pix[0,exp][1] & 1)* (2**exp)
             exp+=1
         return size
-    #-------------
-    '''Char_ToBinary Fonksiyonunda oluşturduğumuz değerleri resmin pixellerindeki red değerlerinin 
-    en düşük bitine yazıyoruz(8 bit olarak). green değerlerinde de aynı şekilde mesaj uzunluğu saklanır(32 bit olarak)'''
 
     #WRITES THE DATA THAT WE CREATE AT Char_ToBinary Function AT IMAGES LEAST SIGNIFICANT RED BIT.
     #ALSO WRITES MESSAGE LENGHT AT LEAST SIGNIFICANT GREEN BIT
