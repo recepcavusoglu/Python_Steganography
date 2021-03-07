@@ -7,7 +7,7 @@ from scipy import signal
 
 
 class Steganography():
-    def __init__(self,p_path):
+    def __init__(self,p_path=""):
         self.Path = p_path
     
     def Write_Audio(self,p_msg):
@@ -116,8 +116,8 @@ class Steganography():
                 pix[im.size[0]-x-1,im.size[1]-y-1] = new_tuple
                 x+=1
             y+=1
-        im.save("Steganography.bmp")
-        self.Path="Steganography.bmp"
+        im.save("Steganography.png")
+        self.Path="Steganography.png"
     #GETS THE ENCRYPTION KEY FROM IMAGE
     def Get_Key(self,p_encypath):
         im = Image.open(p_encypath)
@@ -185,7 +185,7 @@ class Steganography():
                 j +=1
             j=0
             i +=1
-        im.save("Steganography.bmp") 
+        im.save("Steganography.png") 
     #-------------
 
     #-------------
