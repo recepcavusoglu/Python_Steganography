@@ -20,7 +20,7 @@ stega_audio=stg.Steganography("your_file_name.wav")
 stega_audio.Write_Audio("Hello There Audio File!")
 print(stega_audio.Read_Audio("Steganography.wav"))
 ```
-**Note**: Supported file types are jpg, bmp for images and wav for audio.
+**Note**: Supported file types are jpg, png, bmp for images and wav for audio.
 
 ## What is Steganography?
 
